@@ -100,7 +100,7 @@
         }
     }
     .promo{
-        background:url(../../images/backg-img-1.png) center center/cover no-repeat;
+        background:url(../images/backg-img-1.png) center center/cover no-repeat;
         &-block{
             &__title{
                 padding-top: 77px;
@@ -134,13 +134,13 @@
     .jobs{
         &-block{
             &:nth-child(1){
-                background:url(../../images/bg-img-2.png) center center/cover no-repeat;
+                background:url(../images/bg-img-2.png) center center/cover no-repeat;
             }
             &:nth-child(2){
-                background:url(../../images/bg-img-3.png) center center/cover no-repeat;
+                background:url(../images/bg-img-3.png) center center/cover no-repeat;
             }
             &:nth-child(3){
-                background:url(../../images/bg-img-4.png) center center/cover no-repeat;
+                background:url(../images/bg-img-4.png) center center/cover no-repeat;
             }  
             &__item{
                 margin: 0 auto;
