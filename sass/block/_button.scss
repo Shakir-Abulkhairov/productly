@@ -1,0 +1,34 @@
+.button{
+    width: 175px;
+    height: 53px;
+    border-radius: 4px;
+    background-color: #ff9900;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    &_white{
+        width: 110px;
+        height: 46px;
+        background-color: #fff;
+        border: 1px solid gray;
+        color: #173a56;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    &_mini{
+        max-width: 110px;
+        height: 46px;
+        background-color: #ff9900;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    &_wide{
+        max-width: 216px;
+    }
+    &_middle{
+        width: 131px;
+        height: 39px;
+    }
+}

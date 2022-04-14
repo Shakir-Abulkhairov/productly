@@ -1,0 +1,194 @@
+@media all {
+    .header{
+        &-inner{
+            align-items: center;
+            &__block{
+                align-items: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .container{
+        width: 1000px;
+    }
+}
+@media(max-width: 992px) {
+    .container{
+        width: 818px;
+    }
+    .marketing{
+        &__content{
+            flex-direction: column;
+            align-items: center;
+        }
+        &-block{
+            margin-bottom: 53px;
+            &__text{
+                margin: 0 auto;
+            }
+        }
+        &__subtitle{
+            text-align: center;
+        }
+    }
+    .title{
+        &_marketing{
+            text-align: center;
+        }
+    }
+}
+@media(max-width: 768px) {
+    .container{
+        width: 648px;
+    }
+    .header{
+        &-inner{
+            &__block{
+                margin-right: 149px
+            }
+        }
+        &__burger{
+            width: 26px;
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: block;
+            span{
+                display: block;
+                height: 2px;
+                width: 100%;
+                background-color: #000;
+                margin-bottom: 2px;
+                transition: all 0.6s;
+            }
+            &_active{
+                span:nth-child(1){
+                    transform: translateY(3px) rotate(-41deg);
+                }
+                span:nth-child(2){
+                   display: none;
+                }
+                span:nth-child(3){
+                    transform: translateY(0px) rotate(39deg);
+                }
+            }
+        }
+    }
+    .menu{
+        flex-direction: column;
+        display: flex;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: -100%; 
+        width: 50%;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.5s;
+        &_active{
+            left: 0;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+        &-item{
+            padding-bottom: 30px;
+            width: 100%;
+            text-align: center;
+        }
+    }
+    .promo{
+        background:url(../../images/backg-img-1.png) center center/cover no-repeat;
+        &-block{
+            &__title{
+                padding-top: 77px;
+            }
+            &__started{
+                justify-content: center;
+            }
+            &__info{
+                margin: 0 auto;
+            }
+            &__img{
+                display: none;
+            }
+        }
+    }
+    .design-tools{
+        &__content{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__block{
+            margin-top: 33px;
+            &-icon{
+                margin: 0 auto;
+            }
+            &-title,&-text{
+                text-align: center;
+            }
+        }
+    }
+    .jobs{
+        &-block{
+            &:nth-child(1){
+                background:url(../../images/bg-img-2.png) center center/cover no-repeat;
+            }
+            &:nth-child(2){
+                background:url(../../images/bg-img-3.png) center center/cover no-repeat;
+            }
+            &:nth-child(3){
+                background:url(../../images/bg-img-4.png) center center/cover no-repeat;
+            }  
+            &__item{
+                margin: 0 auto;
+            }
+            &__img{
+                display: none;
+            }
+        }
+    }
+    .footer{
+        &-block{
+            text-align: center;
+            margin-top: 12px;
+            &__button{
+                margin: 0 auto;
+                margin-top: 12px;
+            }
+            &__title{
+                text-align: center;
+            }
+        }
+        &__content{
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    
+}
+@media(max-width: 576px) {
+    .container{
+        width: 288px;
+    }
+    .header{
+        &-inner{
+            flex-direction: column;
+            align-items: flex-start;
+            &__block{
+                align-items: flex-end;
+                &__button{
+                    margin-top: 13px;
+                    margin-right: 11px;
+                }
+            }
+        }
+    }
+    .jobs{
+        &-block{
+            padding:20px;
+        }
+    }
+}

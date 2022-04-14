@@ -1,0 +1,37 @@
+.footer{
+    padding: 0 0 106px 0;
+    &__content{
+        display: flex;
+        justify-content: space-between;
+    }
+    &-block{
+        &__form{
+            display: flex;
+            flex-direction: column;
+            margin-top: 34px;
+        }
+        &__button{
+            margin-top: 21px;
+        }
+        &__links{
+            margin-top: 28px;
+          li{ 
+            list-style-type: none;
+              a{
+                color: #544837;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 35px;
+                text-align: left;
+                text-decoration: none; 
+               }
+            }
+        }
+    }
+    .divider{
+        margin-bottom: 102px;
+        border: none;
+        height: 1px;
+        background-color: rgba(188, 208, 229, 0.5);
+    }
+}
