@@ -9,6 +9,12 @@
         justify-content:space-between;
         align-items: center;
         margin-bottom: 103px;
+        &__img{
+            max-width: 600px;
+            img{
+                width: 100%;
+            }
+        }
         &__icon{
             display: inline-block;
 	        margin-left: 15px;

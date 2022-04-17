@@ -27,6 +27,12 @@
     }
     &-block{
         max-width: 348px;
+        &__img{
+            max-width: 348px;
+            img{
+                width: 100%;
+            }
+        }
         &__title{
             position: relative;
             margin-top: 25px;

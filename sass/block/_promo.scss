@@ -3,6 +3,12 @@
     &-block{
         display: flex;
         align-items: center;
+        &__img{
+            max-width: 600px;
+            img{
+                width: 100%;
+            }
+        }
        &__text{
         color: #544837;
         font-size: 18px;
